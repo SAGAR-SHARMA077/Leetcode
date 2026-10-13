@@ -7,9 +7,9 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             
             x += nums[i];
-            int seen = x-k;
-            if(map.containsKey(seen)){
-                res+=map.get(seen);
+           // int seen = x-k;
+            if(map.containsKey(x-k)){
+                res+=map.get(x-k);
                 
             }
             map.put(x,map.getOrDefault(x,0)+1);
