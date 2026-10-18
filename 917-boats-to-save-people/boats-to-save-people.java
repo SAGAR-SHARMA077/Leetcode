@@ -11,14 +11,9 @@ class Solution {
                 min++;
             }
             else{
-                if(people[j] <= limit){
                     j--;
                     min++;
-                }
-                else{
-                    i++;
-                    min++;
-                }
+                
             }
         }
         return min;
