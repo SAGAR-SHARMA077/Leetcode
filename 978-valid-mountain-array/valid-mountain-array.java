@@ -4,7 +4,7 @@ class Solution {
         if(n<3){
             return false;
         }
-        boolean flag  = true;
+        
         int i = 0;
         while(i+1<n ){
             if(arr[i] == arr[i+1]){
@@ -28,6 +28,6 @@ class Solution {
             }
             i++;
         }
-        return flag;
+        return true;
     }
 }
