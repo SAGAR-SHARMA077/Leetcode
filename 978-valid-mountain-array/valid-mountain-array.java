@@ -16,13 +16,11 @@ class Solution {
             i++;
         }
 
-        if(i+1==n){
+        if(i+1==n || i==0){
             return false;
         }
         while(i+1<n ){
-            if(i<1){
-                return false;
-            }
+          
             if(arr[i]<=arr[i+1]){
                 return false;
             }
