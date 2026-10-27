@@ -10,9 +10,9 @@ class Solution {
            if(set.contains(nums[i] - diff) && set.contains(nums[i]-(diff*2))){
             count++;
            }
-        //    else{
-        //     set.add(nums[i]);
-        //    }
+        //    e
+            set.add(nums[i]);
+        //    
            
         }
         return count;
